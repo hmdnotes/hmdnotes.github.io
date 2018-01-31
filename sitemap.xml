@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hmdnotes.com/my-first-post/</loc>
+    <lastmod>2018-01-08T21:46:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/</loc>
+    <lastmod>2018-01-08T21:46:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/post/</loc>
+    <lastmod>2018-01-08T21:46:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

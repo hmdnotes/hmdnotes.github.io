@@ -23,7 +23,7 @@ Ini adalah tulisan pertama saya di blog ini. Blog ini dibuat dengan Hugo dan di 
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="tag," />
 
 
 <meta property="og:title" content="Hello World :)" />
@@ -101,6 +101,12 @@ Ini adalah tulisan pertama saya di blog ini. Blog ini dibuat dengan Hugo dan di 
 	p > img{
 		max-width: 100%;
 	}
+	img.emoji {
+		height: 1em;
+		width: 1em;
+		margin: 0 .05em 0 .1em;
+		vertical-align: -0.1em;
+	}
 </style>
 
 
@@ -160,12 +166,18 @@ ga('send', 'pageview');
                                 <div>
                                     
                                         
+                                        <span class="badge badge-success">
+                                        #
+                                        <a class="text-white" rel="tag" href="https://hmdnotes.com/tags/tag">tag</a>
+                                        </span>
+                                        
                                     
                                 </div>
                                 <div></div>
                             </div>
                             <div class="post-body">
                                 <p><img src="/img/Hello-World.png" alt=""></p>
+                                <article>
                                 <p>Hello World!</p>
 
 <p>Ini adalah tulisan pertama saya di blog ini. Blog ini dibuat dengan Hugo dan di deploy ke <em>Github Pages</em>.
@@ -174,7 +186,7 @@ Kenapa menggunakan Hugo? Karena saya terinspirasi dari blog <a href="https://pet
 <p>Blog ini nantinya akan membahas seputar dunia programming khususnya yaitu web programming.
 Mohon maaf kalau untuk tata bahasanya masih belum sebagus blog blog yang lain karena ini memang baru pengalaman pertama saya membuat dan menulis di blog.</p>
 
-<p>^-^</p>
+<p>^_^</p>
 
 <p>Referensi:</p>
 
@@ -183,6 +195,7 @@ Mohon maaf kalau untuk tata bahasanya masih belum sebagus blog blog yang lain ka
 <li><a href="https://www.petanikode.com/membuat-blog-dengan-hugo/">https://www.petanikode.com/membuat-blog-dengan-hugo/</a></li>
 </ul>
 
+                                </article>
                             </div>
                             <div class="post-footer mt-5 py-4">
                                  <div id="disqus_thread"></div>
@@ -249,7 +262,7 @@ Mohon maaf kalau untuk tata bahasanya masih belum sebagus blog blog yang lain ka
     </div>
     <footer class="mt-5 mb-5">
     <div class="text-center text-secondary">
-       &copy; 2018 <a href="https://hmdnotes.com" class="text-secondary"> HMDnotes</a>
+       &copy; 2018 <a href="https://hmdnotes.com" class="text-secondary"> HMDnotes</a> | Made with ❤ using <a href='https://gohugo.io' target='_blank'>Hugo</a>
     </div>
 </footer>
     <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
@@ -257,10 +270,23 @@ Mohon maaf kalau untuk tata bahasanya masih belum sebagus blog blog yang lain ka
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/prism.js"></script>
 <script type="text/javascript" async src="/js/lazysizes.min.js"></script>
+<script type="text/javascript" src="/js/twemoji.min.js"></script>
 
 
+<script>
+    
+    twemoji.parse(document.body);
 
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</script>
 <script>
     $(document).ready(function() {
         $('.carousel').carousel()

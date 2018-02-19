@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on HMDnotes</title>
-    <link>https://hmdnotes.com/post/</link>
-    <description>Recent content in Posts on HMDnotes</description>
+    <title>Php on HMDnotes</title>
+    <link>https://hmdnotes.com/tags/php/</link>
+    <description>Recent content in Php on HMDnotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 19 Feb 2018 21:59:58 +0700</lastBuildDate>
     
-	<atom:link href="https://hmdnotes.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hmdnotes.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <description>Mengirim email notifikasi ke user adalah fitur yang sudah umum ketika kita membuat sebuah aplikasi berbasis web. Fitur ini biasa diterapkan pada contact form, reset password atau bahkan untuk mengirim link approval dari aplikasi yang telah kita buat.
 Nah, pada kesempatan kali ini kita akan mencoba untuk mengirim email dengan bantuan sebuah library yang bernama PHPMailer serta akun SMTP Gmail.
 Mengatur akun SMTP Gmail Login ke akun Google kamu.</description>
-    </item>
-    
-    <item>
-      <title>Hello World :)</title>
-      <link>https://hmdnotes.com/my-first-post/</link>
-      <pubDate>Mon, 08 Jan 2018 21:46:55 +0700</pubDate>
-      
-      <guid>https://hmdnotes.com/my-first-post/</guid>
-      <description>Hello World!
-Ini adalah tulisan pertama saya di blog ini. Blog ini dibuat dengan Hugo dan di deploy ke Github Pages. Kenapa menggunakan Hugo? Karena saya terinspirasi dari blog Petanikode.com yang kebetulan saat itu sedang migrasi ke Hugo, lalu saya coba coba untuk membuat projek dari Hugo.. eh ternyata gampang juga ya. Lalu setelah mengumpulkan niat saya langsung coba implementasikan untuk membuat blog ini dengan tutorial dari dokumentasi resmi Hugo dan dari blog Petanikode.</description>
     </item>
     
   </channel>

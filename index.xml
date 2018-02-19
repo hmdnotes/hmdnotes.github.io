@@ -5,10 +5,21 @@
     <link>https://hmdnotes.com/</link>
     <description>Recent content on HMDnotes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Jan 2018 21:46:55 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2018 21:59:58 +0700</lastBuildDate>
     
 	<atom:link href="https://hmdnotes.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cara Mengirim Email dengan Library Email PHPMailer</title>
+      <link>https://hmdnotes.com/kirim-email-phpmailer/</link>
+      <pubDate>Mon, 19 Feb 2018 21:59:58 +0700</pubDate>
+      
+      <guid>https://hmdnotes.com/kirim-email-phpmailer/</guid>
+      <description>Mengirim email notifikasi ke user adalah fitur yang sudah umum ketika kita membuat sebuah aplikasi berbasis web. Fitur ini biasa diterapkan pada contact form, reset password atau bahkan untuk mengirim link approval dari aplikasi yang telah kita buat.
+Nah, pada kesempatan kali ini kita akan mencoba untuk mengirim email dengan bantuan sebuah library yang bernama PHPMailer serta akun SMTP Gmail.
+Mengatur akun SMTP Gmail Login ke akun Google kamu.</description>
+    </item>
     
     <item>
       <title>Hello World :)</title>

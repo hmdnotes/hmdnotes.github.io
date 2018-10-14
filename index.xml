@@ -5,10 +5,20 @@
     <link>https://hmdnotes.com/</link>
     <description>Recent content on HMDnotes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 19 Feb 2018 21:59:58 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Oct 2018 23:00:58 +0700</lastBuildDate>
     
 	<atom:link href="https://hmdnotes.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Membuat Website Statis Dengan Memanfaatkan Github Pages</title>
+      <link>https://hmdnotes.com/membuat-website-statis-dengan-github-pages/</link>
+      <pubDate>Sun, 14 Oct 2018 23:00:58 +0700</pubDate>
+      
+      <guid>https://hmdnotes.com/membuat-website-statis-dengan-github-pages/</guid>
+      <description>Pada kesempatan kali ini saya akan menjelaskan bagaimana cara membuat website statis dengan memanfaatkan Github Pages sebagai hosting.
+Sebelum kita memulai alangkah baiknya kita berkenalan terlebih dahulu dengan Github Pages. Apa itu Github Pages ? Github Pages adalah layanan hosting situs atau website statis yang dirancang untuk menghosting halaman pribadi, organisasi, atau proyek anda langsung dari repositori Github. Layanan ini diberikan gratis oleh Github dan kita juga mendapatkan subdomain .</description>
+    </item>
     
     <item>
       <title>Cara Mengirim Email dengan Library Email PHPMailer</title>

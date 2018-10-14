@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hmdnotes.com/membuat-website-statis-dengan-github-pages/</loc>
+    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hmdnotes.com/kirim-email-phpmailer/</loc>
     <lastmod>2018-02-19T21:59:58+07:00</lastmod>
   </url>
@@ -13,8 +18,20 @@
   </url>
   
   <url>
+    <loc>https://hmdnotes.com/tags/git/</loc>
+    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/tags/github/</loc>
+    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hmdnotes.com/</loc>
-    <lastmod>2018-02-19T21:59:58+07:00</lastmod>
+    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -26,7 +43,7 @@
   
   <url>
     <loc>https://hmdnotes.com/post/</loc>
-    <lastmod>2018-02-19T21:59:58+07:00</lastmod>
+    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,7 +55,7 @@
   
   <url>
     <loc>https://hmdnotes.com/tags/</loc>
-    <lastmod>2018-02-19T21:59:58+07:00</lastmod>
+    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
     <priority>0</priority>
   </url>
   

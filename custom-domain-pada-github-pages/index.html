@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cara Mengirim Email dengan Library Email PHPMailer</title>
+    <title>Setting Custom Domain Pada Github Pages</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-<meta name="keywords" content="php, email, phpmailer, smtp, kirim email, smtp gmail"/>
-<meta name="description" content="MEngirim Email dengan Library Email PHPMailer"/>
+<meta name="keywords" content="git, github, website, static website, hugo, jekyll, github pages"/>
+<meta name="description" content="Setting Custom Domain Pada Github Pages."/>
 
 
-<meta itemprop="name" content="Cara Mengirim Email dengan Library Email PHPMailer">
-<meta itemprop="description" content="Mengirim email notifikasi ke user adalah fitur yang sudah umum ketika kita membuat sebuah aplikasi berbasis web. Fitur ini biasa diterapkan pada contact form, reset password atau bahkan untuk mengirim link approval dari aplikasi yang telah kita buat.
-Nah, pada kesempatan kali ini kita akan mencoba untuk mengirim email dengan bantuan sebuah library yang bernama PHPMailer serta akun SMTP Gmail.
-Mengatur akun SMTP Gmail Login ke akun Google kamu.">
+<meta itemprop="name" content="Setting Custom Domain Pada Github Pages">
+<meta itemprop="description" content="Pada postingan sebelumnya telah dijelaskan bagaimana cara membuat website statis di Github Pages. Website yang telah kita buat di github pages mendapat subdomain .github.io. Apakah subdomain tersebut bisa diganti dengan domain kita sendiri seperti domain .com .net .id? Jawabannya : Bisa.
+Lalu bagaimana caranya ?
+1. Siapkan Domain Pastikan anda sudah mempunyai domain yang akan dipasang di Github Page. Kalau belum anda harus membeli domain terlebih dahulu.
+2. CNAME Ada dua cara untung menyeting CNAME pada Github Pages.">
 
 
-<meta itemprop="datePublished" content="2018-02-19T21:59:58&#43;07:00" />
-<meta itemprop="dateModified" content="2018-02-19T21:59:58&#43;07:00" />
-<meta itemprop="wordCount" content="348">
+<meta itemprop="datePublished" content="2018-10-21T23:00:58&#43;07:00" />
+<meta itemprop="dateModified" content="2018-10-21T23:00:58&#43;07:00" />
+<meta itemprop="wordCount" content="195">
 
 
 
-<meta itemprop="keywords" content="PHP," />
+<meta itemprop="keywords" content="Git,Github," />
 
 
-<meta property="og:title" content="Cara Mengirim Email dengan Library Email PHPMailer" />
-<meta property="og:description" content="Mengirim email notifikasi ke user adalah fitur yang sudah umum ketika kita membuat sebuah aplikasi berbasis web. Fitur ini biasa diterapkan pada contact form, reset password atau bahkan untuk mengirim link approval dari aplikasi yang telah kita buat.
-Nah, pada kesempatan kali ini kita akan mencoba untuk mengirim email dengan bantuan sebuah library yang bernama PHPMailer serta akun SMTP Gmail.
-Mengatur akun SMTP Gmail Login ke akun Google kamu." />
+<meta property="og:title" content="Setting Custom Domain Pada Github Pages" />
+<meta property="og:description" content="Pada postingan sebelumnya telah dijelaskan bagaimana cara membuat website statis di Github Pages. Website yang telah kita buat di github pages mendapat subdomain .github.io. Apakah subdomain tersebut bisa diganti dengan domain kita sendiri seperti domain .com .net .id? Jawabannya : Bisa.
+Lalu bagaimana caranya ?
+1. Siapkan Domain Pastikan anda sudah mempunyai domain yang akan dipasang di Github Page. Kalau belum anda harus membeli domain terlebih dahulu.
+2. CNAME Ada dua cara untung menyeting CNAME pada Github Pages." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hmdnotes.com/kirim-email-phpmailer/" /><meta property="article:published_time" content="2018-02-19T21:59:58&#43;07:00"/>
-<meta property="article:modified_time" content="2018-02-19T21:59:58&#43;07:00"/>
+<meta property="og:url" content="https://hmdnotes.com/custom-domain-pada-github-pages/" /><meta property="article:published_time" content="2018-10-21T23:00:58&#43;07:00"/>
+<meta property="article:modified_time" content="2018-10-21T23:00:58&#43;07:00"/>
 
 <meta content='summary_large_image' name='twitter:card' />
 <meta content='@hamid_why' name='twitter:site' />
 <meta content='@hamid_why' name='twitter:creator' />
-<meta property="og:image" content="https://hmdnotes.com/img/email.png" />
+<meta property="og:image" content="https://hmdnotes.com/img/cname-github-pages.png" />
 
 
 <link rel="icon" href="/img/hamid.jpg" />
@@ -145,18 +147,23 @@ if (!doNotTrack) {
                                         <div style="width: auto;display: table-cell;vertical-align: middle; text-align: left;">
                                             <a class="align-middle text-dark" href="https://hamidwahyudin.com">Hamid Wahyudin</a>
                                             <br>
-                                            <small class="align-middle text-muted"><time title="2018-02-19 21:59:58 &#43;0700 &#43;0700">19 Feb 2018</time></small>
+                                            <small class="align-middle text-muted"><time title="2018-10-21 23:00:58 &#43;0700 &#43;0700">21 Oct 2018</time></small>
                                         </div>
                                     </div>
                                 </div>
-                                <h2 class="card-title mb-3">Cara Mengirim Email dengan Library Email PHPMailer</h2>
+                                <h2 class="card-title mb-3">Setting Custom Domain Pada Github Pages</h2>
                                 <hr>
                                 <div>
                                     
                                         
                                         <span class="badge badge-success">
                                         #
-                                        <a class="text-white" rel="tag" href="https://hmdnotes.com/tags/php">PHP</a>
+                                        <a class="text-white" rel="tag" href="https://hmdnotes.com/tags/git">Git</a>
+                                        </span>
+                                        
+                                        <span class="badge badge-success">
+                                        #
+                                        <a class="text-white" rel="tag" href="https://hmdnotes.com/tags/github">Github</a>
                                         </span>
                                         
                                     
@@ -164,87 +171,74 @@ if (!doNotTrack) {
                                 <div></div>
                             </div>
                             <div class="post-body">
-                                <p><img src="/img/image-placeholder.png" data-src="/img/email.png" alt="" class="lazyload"></p>
+                                <p><img src="/img/image-placeholder.png" data-src="/img/cname-github-pages.png" alt="" class="lazyload"></p>
                                 <article>
                                 
 
-<p>Mengirim email notifikasi ke user adalah fitur yang sudah umum ketika kita membuat sebuah aplikasi berbasis web.
-Fitur ini biasa diterapkan pada contact form, reset password atau bahkan untuk mengirim link approval dari aplikasi yang telah kita buat.</p>
+<p>Pada postingan <a href="../membuat-website-statis-dengan-github-pages">sebelumnya</a> telah dijelaskan bagaimana cara membuat website statis di Github Pages.
+Website yang telah kita buat di github pages mendapat subdomain <code>.github.io</code>.
+Apakah subdomain tersebut bisa diganti dengan domain kita sendiri seperti domain <code>.com</code> <code>.net</code> <code>.id</code>?
+Jawabannya : Bisa.</p>
 
-<p>Nah, pada kesempatan kali ini kita akan mencoba untuk mengirim email dengan bantuan sebuah library yang bernama PHPMailer serta akun SMTP Gmail.</p>
+<p>Lalu bagaimana caranya ?</p>
 
-<h3 id="mengatur-akun-smtp-gmail">Mengatur akun SMTP Gmail</h3>
+<h3 id="1-siapkan-domain">1. Siapkan Domain</h3>
 
-<p>Login ke akun Google kamu.</p>
+<p>Pastikan anda sudah mempunyai domain yang akan dipasang di Github Page.
+Kalau belum anda harus membeli domain terlebih dahulu.</p>
 
-<p>Lalu atur dengan membuka <a href="https://myaccount.google.com/u/1/security?pageId=none">link ini</a> dan aktifkan Allow less secure apps/ Izinkan aplikasi yang kurang aman. Konfigurasi akun Gmail kamu seperti ini :</p>
+<h3 id="2-cname">2. CNAME</h3>
+
+<p>Ada dua cara untung menyeting CNAME pada Github Pages.</p>
+
+<p>Yang Pertama :</p>
+
+<ul>
+<li>Menambahkan file CNAME secara manual</li>
+</ul>
+
+<p>Buat file bernama CNAME (tanpa ekstensi). Isi file CNAME tersebut adalah nama domain yang akan digunakan pada Github Pages.
+
+<p><img src="/img/image-placeholder.png" data-src="/img/cname-github-pages.png" alt="CNAME" class="lazyload"></p>
+</p>
+
+<p>Contohnya <code>hmdnotes.com</code></p>
+
+<p>Lalu push ke repository.</p>
+
+<ul>
+<li>Menambahkan file CNAME melalui tab setting repository</li>
+</ul>
+
+<p>Masuk ke tab Setting repository. Lalu isikan domain di bagian custom domain dan save.
+
+<p><img src="/img/image-placeholder.png" data-src="/img/cname-github-pages-setting-1.png" alt="Setting Github 1" class="lazyload"></p>
 
 
-<p><img src="/img/image-placeholder.png" data-src="/img/allow-less-secure-apps.png" alt="Allow less secure apps" class="lazyload"></p>
+<p><img src="/img/image-placeholder.png" data-src="/img/cname-github-pages-setting-2.png" alt="Setting Github 2" class="lazyload"></p>
+</p>
 
+<h3 id="3-setting-dns">3. Setting DNS</h3>
 
-<h3 id="install-library-phpmailer">Install Library PHPMailer</h3>
+<p>Masuk ke contol panel domain anda dan pilih DNS manager / Settingan DNS. Disini saya menggunakan jasa jag*anhosting untuk membeli domain.</p>
 
-<p>Buatlah sebuah folder untuk proyek ini, lalu masuk ke folder tersebut.</p>
+<p>Isi bagian Host dengan <code>WWW</code></p>
 
-<p>Silahkan ketik perintah di bawah ini untuk menginstal Library PHPMailer.</p>
+<p>Destination diisi dengan <code>username.github.io</code>. Contohnya <code>hmdnotes.github.io</code>
 
-<pre><code class="language-bash">composer require phpmailer/phpmailer
-</code></pre>
+<p><img src="/img/image-placeholder.png" data-src="/img/cname-github-pages-dns-manager.png" alt="DNS Manager" class="lazyload"></p>
+</p>
 
+<p>Lalu klik save</p>
 
-<p><img src="/img/image-placeholder.png" data-src="/img/composer-install-phpmailer.png" alt="Composer Install PHPMailer" class="lazyload"></p>
+<h3 id="4-waktunya-menunggu">4. Waktunya Menunggu</h3>
 
-
-<p>Setelah menginstal lalu kita buat sebuah file baru yang kita beri nama <code>kirim-email.php</code> dan isikan kode dibawah ke file yang kita buat tadi.</p>
-
-<pre><code class="language-php">&lt;?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-//Load composer's autoloader
-require 'vendor/autoload.php';
-
-$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
-try {
-    //Server settings
-    $mail-&gt;SMTPDebug = 3;                                 // Enable verbose debug output
-    $mail-&gt;isSMTP();                                      // Set mailer to use SMTP
-    $mail-&gt;Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-    $mail-&gt;SMTPAuth = true;                               // Enable SMTP authentication
-    $mail-&gt;Username = 'username@gmail.com';                 // SMTP username
-    $mail-&gt;Password = 'password';                           // SMTP password
-    $mail-&gt;SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail-&gt;Port = 587;                                    // TCP port to connect to
-
-    //Recipients
-    $mail-&gt;setFrom('from@example.com', 'Mailer');
-    $mail-&gt;addAddress('joe@example.net', 'Joe User');     // Add a recipient
-
-    //Content
-    $mail-&gt;isHTML(true);                                  // Set email format to HTML
-    $mail-&gt;Subject = 'Here is the subject';
-    $mail-&gt;Body    = 'This is the HTML message body &lt;b&gt;in bold!&lt;/b&gt;';
-    $mail-&gt;AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-    $mail-&gt;send();
-    echo 'Message has been sent';
-} catch (Exception $e) {
-    echo 'Message could not be sent. Mailer Error: ', $mail-&gt;ErrorInfo;
-}
-?&gt;
-</code></pre>
-
-<p>Ganti pada bagian <code>$mail-&gt;Username</code> dan <code>$mail-&gt;Password</code> dengan dengan akun Gmail kalian, <code>$mail-&gt;setFrom</code> dengan email kalian dan nama kalian dan <code>$mail-&gt;addAddress</code> ganti dengan alamat email yang dituju.</p>
-
-<p>Save file tadi lalu jalan kan di browser denga alamat <code>http://localhost/namafolder/kirim-email.php</code></p>
-
-<p>Jika berhasil maka akan muncul informasi <code>Message has been sent</code>.</p>
+<p>Tunggu sekitar 10 menit sampai 1 jam sampai domain yang anda setting tadi bisa diakses dan mengarah ke Github Pages.</p>
 
 <p>Referensi:</p>
 
 <ul>
-<li><a href="https://github.com/PHPMailer/PHPMailer">https://github.com/PHPMailer/PHPMailer</a></li>
+<li><a href="https://help.github.com/articles/setting-up-a-www-subdomain/">https://help.github.com/articles/setting-up-a-www-subdomain/</a></li>
 </ul>
 
                                 </article>

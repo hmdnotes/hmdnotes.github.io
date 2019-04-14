@@ -3,26 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hmdnotes.com/custom-domain-pada-github-pages/</loc>
-    <lastmod>2018-10-21T23:00:58+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmdnotes.com/membuat-website-statis-dengan-github-pages/</loc>
-    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmdnotes.com/kirim-email-phpmailer/</loc>
-    <lastmod>2018-02-19T21:59:58+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmdnotes.com/my-first-post/</loc>
-    <lastmod>2018-01-08T21:46:55+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hmdnotes.com/tags/git/</loc>
     <lastmod>2018-10-21T23:00:58+07:00</lastmod>
     <priority>0</priority>
@@ -41,26 +21,46 @@
   </url>
   
   <url>
-    <loc>https://hmdnotes.com/tags/php/</loc>
-    <lastmod>2018-02-19T21:59:58+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hmdnotes.com/post/</loc>
     <lastmod>2018-10-21T23:00:58+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hmdnotes.com/tags/tag/</loc>
-    <lastmod>2018-01-08T21:46:55+07:00</lastmod>
-    <priority>0</priority>
+    <loc>https://hmdnotes.com/custom-domain-pada-github-pages/</loc>
+    <lastmod>2018-10-21T23:00:58+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://hmdnotes.com/tags/</loc>
     <lastmod>2018-10-21T23:00:58+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/membuat-website-statis-dengan-github-pages/</loc>
+    <lastmod>2018-10-14T23:00:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/kirim-email-phpmailer/</loc>
+    <lastmod>2018-02-19T21:59:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/tags/php/</loc>
+    <lastmod>2018-02-19T21:59:58+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/my-first-post/</loc>
+    <lastmod>2018-01-08T21:46:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/tags/tag/</loc>
+    <lastmod>2018-01-08T21:46:55+07:00</lastmod>
     <priority>0</priority>
   </url>
   

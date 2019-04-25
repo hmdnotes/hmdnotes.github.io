@@ -5,10 +5,29 @@
     <link>https://hmdnotes.com/</link>
     <description>Recent content on HMDnotes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Oct 2018 23:00:58 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 23:46:30 +0700</lastBuildDate>
     
 	<atom:link href="https://hmdnotes.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://hmdnotes.com/about/</link>
+      <pubDate>Thu, 25 Apr 2019 23:46:30 +0700</pubDate>
+      
+      <guid>https://hmdnotes.com/about/</guid>
+      <description>Blog ini dibuat sebagai sarana berbagi pengetahuan di dunia programming. :)</description>
+    </item>
+    
+    <item>
+      <title>Faqs</title>
+      <link>https://hmdnotes.com/faqs/</link>
+      <pubDate>Thu, 25 Apr 2019 23:28:35 +0700</pubDate>
+      
+      <guid>https://hmdnotes.com/faqs/</guid>
+      <description>Apakah HMDNotes menggunakan CMS? HMDNotes menggunakan SSG Hugo. Hugo adalah SSG (Static Site Generator) atau bisa dibilang semacam CMS untuk membuat halaman statis.
+HMDNotes hosting dimana? HMDNotes menggunakan layanan gratis github pages.</description>
+    </item>
     
     <item>
       <title>Setting Custom Domain Pada Github Pages</title>

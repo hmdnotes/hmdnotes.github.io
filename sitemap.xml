@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hmdnotes.com/about/</loc>
+    <lastmod>2019-04-25T23:46:30+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/</loc>
+    <lastmod>2019-04-25T23:46:30+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hmdnotes.com/faqs/</loc>
+    <lastmod>2019-04-25T23:28:35+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hmdnotes.com/tags/git/</loc>
     <lastmod>2018-10-21T23:00:58+07:00</lastmod>
     <priority>0</priority>
@@ -10,12 +26,6 @@
   
   <url>
     <loc>https://hmdnotes.com/tags/github/</loc>
-    <lastmod>2018-10-21T23:00:58+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hmdnotes.com/</loc>
     <lastmod>2018-10-21T23:00:58+07:00</lastmod>
     <priority>0</priority>
   </url>
